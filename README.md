@@ -13,7 +13,8 @@ npm start
 
 ### Upload the video from /upload endpoint
 ```
-http://localhost:3000/upload
+http method POST
+http://localhost:3000/upload 
 
 In formdata add videofile as key and value as an mp4 video
 
