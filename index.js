@@ -155,7 +155,7 @@ const worker = new Worker(
             console.error(`Error processing video ${videoId}:`, error);
             throw error;
         }
-    }, { connection: redisConnection, concurrency: 2 }
+    }, { connection: redisConnection, concurrency: 3 }
 );
 
 
